@@ -24,6 +24,7 @@ img {
 header {
   box-sizing: border-box;
   background-color: black;
+  border-bottom: 0px transparent;
 }
 
 #hbg {
@@ -47,7 +48,7 @@ header {
 #hbg h1 {
   font-size: 2rem;
   line-height: 1;
-  letter-spacing: -2px;
+  letter-spacing: -1px;
   box-sizing: border-box;
   padding: 4vh;
   padding-bottom: 2vh;
@@ -71,6 +72,7 @@ button {
   height: 4vh;
   width: 28vw;
   box-sizing: border-box;
+  margin-top: 2vh;
 }
 
 Main {
@@ -91,6 +93,7 @@ article {
   height: 35vh;
   width: 35vh;
   border-radius: 50%;
+  margin-top: 3.5vh;
 }
 
 #warranty {
@@ -144,5 +147,46 @@ article {
   padding-right: 5vw;
 }
 
-footer {
+#footer {
+  background-color: #25a2c3;
+  height: 40vh;
+  color: white;
+}
+
+#fh2 {
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 5vh;
+}
+
+address a {
+  color: white;
+}
+
+address {
+  margin-bottom: 3vh;
+}
+
+#appia {
+  text-decoration: none;
+}
+
+hr {
+  width: 50%;
+  color: white;
+  margin-bottom: 3vh;
+}
+
+#copy {
+  font-size: 1.8vh;
+}
+
+#pixabay {
+  text-decoration: underline;
+  color: white;
+}
+
+.boximg {
+  width: 100%;
 }
