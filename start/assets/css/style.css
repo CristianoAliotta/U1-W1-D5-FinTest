@@ -1,1 +1,148 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600;700&family=Open+Sans:wght@300;400;600;700&display=swap");
+
+body {
+  margin: 0;
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.65;
+  text-align: center;
+}
+
+.headings {
+  font-family: "Montserrat", sans-serif;
+  background-color: transparent;
+  color: #25a2c3;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+img {
+  width: 100%;
+}
+
+header {
+  box-sizing: border-box;
+  background-color: black;
+}
+
+#hbg {
+  background-image: url(../images/banner.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 36vh;
+  background-position: 50% 150%;
+}
+
+#logo {
+  width: 30%;
+  margin: auto;
+  margin-top: 3vh;
+}
+
+#headerblack {
+  margin-bottom: 2vh;
+}
+
+#hbg h1 {
+  font-size: 2rem;
+  line-height: 1;
+  letter-spacing: -2px;
+  box-sizing: border-box;
+  padding: 4vh;
+  padding-bottom: 2vh;
+}
+
+#hbg p {
+  margin-top: 0;
+  font-size: smaller;
+  box-sizing: border-box;
+  padding: 5vh;
+  padding-top: 0;
+  padding-bottom: 2vh;
+}
+
+button {
+  background-color: #f04c2f;
+  border-radius: 3px;
+  border: none;
+  font-variant: small-caps;
+  color: white;
+  height: 4vh;
+  width: 28vw;
+  box-sizing: border-box;
+}
+
+Main {
+  margin-top: 6vh;
+}
+
+article h3 {
+  margin-top: 3vh;
+  margin-bottom: 1.5vh;
+}
+
+article {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#notebook {
+  height: 35vh;
+  width: 35vh;
+  border-radius: 50%;
+}
+
+#warranty {
+  background-color: #f8320afa;
+  color: white;
+  height: 38vh;
+  width: 100%;
+  box-sizing: border-box;
+  padding-top: 4vh;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+#warh2 {
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 3vh;
+  margin-top: 3vh;
+}
+
+#cite {
+  font-style: oblique;
+  margin-bottom: 3vh;
+  padding-left: 7px;
+  font-size: 0.9em;
+}
+
+#job {
+  font-size: 0.8em;
+}
+
+.box {
+  width: 86%;
+  margin: 0 auto;
+  margin-bottom: 4vh;
+  border: 1px solid lightgray;
+  height: 45vh;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.box h4 {
+  margin-top: 2vh;
+  margin-bottom: 1.5vh;
+}
+
+.box p {
+  font-size: 0.8em;
+  box-sizing: border-box;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+footer {
+}
